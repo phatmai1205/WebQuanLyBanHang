@@ -1,0 +1,180 @@
+{
+  "TAIKHOAN": [
+    {
+      "username": "admin",
+      "password": "123",
+      "Quyen": "Admin",
+      "MaNV": "AD01",
+      "TenNV": "Trần Admin",
+      "TrangThai": "Hoạt động"
+    },
+    {
+      "username": "NV01",
+      "password": "123",
+      "Quyen": "Sales",
+      "MaNV": "NV01",
+      "TenNV": "Nguyễn Sales",
+      "TrangThai": "Hoạt động"
+    },
+    {
+      "username": "NV02",
+      "password": "123",
+      "Quyen": "Sales",
+      "MaNV": "NV02",
+      "TenNV": "Lê Hỗ Trợ",
+      "TrangThai": "Hoạt động"
+    }
+  ],
+  "KHACHHANG": [
+    {
+      "MaKH": "KH001",
+      "TenKH": "Công ty Cổ phần Alpha",
+      "SDT": "0988111222",
+      "DiaChi": "Hà Nội",
+      "LoaiKH": "Doanh nghiệp VIP"
+    },
+    {
+      "MaKH": "KH002",
+      "TenKH": "Lê Nguyễn Hoàng Hải",
+      "SDT": "0912333444",
+      "DiaChi": "TP.HCM",
+      "LoaiKH": "Cá nhân Platinum"
+    },
+    {
+      "MaKH": "KH003",
+      "TenKH": "Trần B",
+      "SDT": "0909555666",
+      "DiaChi": "Đà Nẵng",
+      "LoaiKH": "Cá nhân"
+    }
+  ],
+  "SANPHAM": [
+    {
+      "MaSP": "SP01",
+      "TenSP": "Laptop Dell XPS 15",
+      "TenLoaiSP": "Laptop",
+      "DonGia": 35000000,
+      "TonKho": 120
+    },
+    {
+      "MaSP": "SP02",
+      "TenSP": "iPhone 15 Pro Max",
+      "TenLoaiSP": "Điện thoại",
+      "DonGia": 29000000,
+      "TonKho": 15
+    },
+    {
+      "MaSP": "SP03",
+      "TenSP": "Màn hình Dell U27",
+      "TenLoaiSP": "Phụ kiện",
+      "DonGia": 12000000,
+      "TonKho": 45
+    },
+    {
+      "MaSP": "SP04",
+      "TenSP": "Bàn phím cơ Keychron",
+      "TenLoaiSP": "Phụ kiện",
+      "DonGia": 3000000,
+      "TonKho": 8
+    },
+    {
+      "MaSP": "SP05",
+      "TenSP": "Tai nghe Sony WH-1000XM5",
+      "TenLoaiSP": "Phụ kiện",
+      "DonGia": 6500000,
+      "TonKho": 50
+    }
+  ],
+  "DONHANG": [
+    {
+      "MaDH": "DH2024_01",
+      "Ngay": "2024-04-10",
+      "MaKH": "KH001",
+      "TrangThai": "Đã thanh toán",
+      "TongTien": 35000000,
+      "MaNV": "NV01"
+    },
+    {
+      "MaDH": "DH2024_02",
+      "Ngay": "2024-04-12",
+      "MaKH": "KH002",
+      "TrangThai": "Chưa thanh toán",
+      "TongTien": 12500000,
+      "MaNV": "NV01"
+    },
+    {
+      "MaDH": "DH2024_03",
+      "Ngay": "2024-05-02",
+      "MaKH": "KH003",
+      "TrangThai": "Trả góp",
+      "TongTien": 6500000,
+      "MaNV": "AD01"
+    },
+    {
+      "MaDH": "DH2024_04",
+      "Ngay": "2024-05-15",
+      "MaKH": "KH001",
+      "TrangThai": "Đã thanh toán",
+      "TongTien": 42000000,
+      "MaNV": "NV01"
+    },
+    {
+      "MaDH": "DH2024_05",
+      "Ngay": "2024-05-20",
+      "MaKH": "KH002",
+      "TrangThai": "Đã thanh toán",
+      "TongTien": 29000000,
+      "MaNV": "NV02"
+    }
+  ],
+  "CTDH": [
+    {
+      "MaDH": "DH2024_01",
+      "MaSP": "SP01",
+      "SoLuong": 1,
+      "DonGia": 35000000,
+      "TongTien": 35000000,
+      "GiamGia": 0
+    },
+    {
+      "MaDH": "DH2024_02",
+      "MaSP": "SP05",
+      "SoLuong": 2,
+      "DonGia": 6500000,
+      "TongTien": 12500000,
+      "GiamGia": 0.038
+    },
+    {
+      "MaDH": "DH2024_03",
+      "MaSP": "SP05",
+      "SoLuong": 1,
+      "DonGia": 6500000,
+      "TongTien": 6500000,
+      "GiamGia": 0
+    },
+    {
+      "MaDH": "DH2024_04",
+      "MaSP": "SP01",
+      "SoLuong": 1,
+      "DonGia": 35000000,
+      "TongTien": 35000000,
+      "GiamGia": 0
+    },
+    {
+      "MaDH": "DH2024_04",
+      "MaSP": "SP03",
+      "SoLuong": 1,
+      "DonGia": 12000000,
+      "TongTien": 7000000,
+      "GiamGia": 0.416
+    },
+    {
+      "MaDH": "DH2024_05",
+      "MaSP": "SP02",
+      "SoLuong": 1,
+      "DonGia": 29000000,
+      "TongTien": 29000000,
+      "GiamGia": 0
+    }
+  ]
+}

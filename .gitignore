@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Thư viện npm (Nặng vcl, không up lên Git làm gì)
+node_modules/
+
+# Thư mục build của Vite
+dist/
+
+# FILE BÍ MẬT (Chứa API Key, Token... Giấu kỹ cái này!)
+.env
+.env.local
+.env.*.local
+
+# File rác tự sinh của hệ điều hành macOS
+.DS_Store
